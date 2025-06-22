@@ -23,6 +23,8 @@ static class Auth{
         System.out.println("Enter the password");
         userpassword = value.nextLine();
         System.out.println("Successfully account was created");
+        System.out.println("Press Enter to signin");
+        method = value.nextLine();
         signin();
     }
 
