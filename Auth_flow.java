@@ -23,7 +23,7 @@ static class Auth{
         System.out.println("Enter the password");
         userpassword = value.nextLine();
         System.out.println("Successfully account was created");
-        System.out.println("Press Enter to signin");
+        System.out.println("Press Enter to signin....");
         method = value.nextLine();
         signin();
     }
@@ -35,7 +35,7 @@ static class Auth{
         System.out.println("Enter the password");
         password = value.nextLine();
         if (email.equals(useremail) && password.equals(userpassword)) {
-            System.out.println("Signin success");
+            System.out.println("Signin success...");
         }else{
             System.out.println("Invalid credential");
         }
